@@ -1,0 +1,38 @@
+#statsArea
+{
+	height: 20px;
+	overflow: hidden;
+	white-space: nowrap;
+	background-color: #c3c3c3;
+}
+
+#controls
+{
+	height: 20px;
+	float: right;
+	color: #000000;
+	background-color: #c3c3c3;
+}
+
+#outputArea
+{
+	background-color: #000000;
+	font-family: monospace;
+}
+
+.link
+{
+	text-decoration: underline;
+	color: #f3d;
+	background-color: #dddddd;
+}
+
+.data
+{
+	color: #ffffff;
+}
+
+body
+{
+	background-color: #000000;
+}

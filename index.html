@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html><head>
+	<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+
+	<title>genericApp</title>
+
+	<script src="sockio.js"></script>
+	<script src="lodash.min.js"></script>
+	<script src="webrtc.io.js"></script>
+	<script src="ICanHaz.min.js"></script>
+	<script src="client.js"></script>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/css.css" />
+
+</head><body>
+<div id="keyExchange">
+</div>
+
+	<div id="outputArea">
+		<div id="videos">
+			<video id="you" class="flip" autoplay width="263" height="200"></video>
+		</div>
+	</div>
+
+	<div id="controls">
+		<input id="showData" type="checkbox" onChange="toggleShowEvents(this);" checked></input>
+		<label for="showData">showData</label>
+	</div>
+
+	<div id="statsArea">
+	</div>
+
+<script 
+
+<script id="data" type="text/html">
+	<span class="data">{{ data }}</span><br>
+</script>
+
+<script id="error" type="text/html">
+	{{ message }}<br>
+</script>
+
+<script id="link" type="text/html">
+	<a class="messageLink" href="{{ url }}" target=_blank>{{ url }}</a>
+</script>
+
+</body></html>

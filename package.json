@@ -1,0 +1,21 @@
+{
+	"name": "webrtc-vchat",
+	"description": "Project Description.",
+	"version": "0.0.1",
+	"homepage": "http://#",
+	"author": "You",
+	"private": true,
+
+	"dependencies":
+	{
+		"socket.io": "latest",
+		"webrtc.io": "latest",
+		"socket.io-client": "latest",
+		"webrtc.io-client": "git://github.com/mudcube/webrtc.io-client.git"
+	},
+
+	"engines":
+	{
+		"node": ">= 0.4.6"
+	}
+}
